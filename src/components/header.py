@@ -9,3 +9,13 @@ def header_home():
             <h1 style = 'text-align : center; color : #E0E3FF'>Snap2Attend</h1>
         </div>
                     """, unsafe_allow_html = True)
+    
+def header_dashboard():
+
+    logo_url = "https://apps.odoo.com/web/image/loempia.module/117629/icon_image?unique=f600cc6"
+    st.markdown(f"""
+        <div style="display: flex ;justify-content:center; gap: 12px">    
+            <img src = '{logo_url}' style = 'height : 80px; ' />
+            <h2 style = 'text-align : left; color : #5865F2'>Snap2<br/>Attend</h2>
+        </div>
+                    """, unsafe_allow_html = True)    
