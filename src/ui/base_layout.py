@@ -48,7 +48,7 @@ def style_base_layout():
                 }
                 
             .card-title{
-                color:#222222 !important;
+                color:#222222 ;
                 font-size:2rem;
                 font-weight:700;
                 margin:0;
