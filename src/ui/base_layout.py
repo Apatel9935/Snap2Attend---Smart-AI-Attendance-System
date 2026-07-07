@@ -46,8 +46,9 @@ def style_base_layout():
                 .block-container{
                     padding-top : 1.5rem
                 }
+                
             .card-title{
-                color:#222222;
+                color:#222222 !important;
                 font-size:2rem;
                 font-weight:700;
                 margin:0;
