@@ -46,7 +46,13 @@ def style_base_layout():
                 .block-container{
                     padding-top : 1.5rem
                 }
-
+            .card-title{
+                color:#222222;
+                font-size:2rem;
+                font-weight:700;
+                margin:0;
+            }   
+            
             h1{
                 font-family: 'Climate Crisis' , sans-serief !important;
                 font-size : 3.5rem !important;
